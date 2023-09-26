@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+var a = 10001
+var b = 10086
+
 type Folder struct {
 	children []Inode
 	name     string
